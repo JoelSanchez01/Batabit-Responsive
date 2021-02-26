@@ -104,3 +104,24 @@ header img{
     background-image: url("assets/icons/down-arrow.svg");
 }
 
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+    min-width:320px;
+}
+
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.main-exchange-container--title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
