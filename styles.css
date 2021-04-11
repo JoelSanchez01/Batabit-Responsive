@@ -116,7 +116,7 @@ main{
     width: 100%;
     height: auto;
     padding-top: 55px;
-    padding-bottom: 65px;
+    
     text-align: center;
 }
 
@@ -158,8 +158,9 @@ main{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 340px;
     margin: 0 auto;
+    scroll-snap-align: center;
     font-family: "Inter", sans-serif;
 
 }
@@ -606,9 +607,21 @@ footer .left ul{
 }
 
 
+.main-tables-container{
+    display: flex;
+    height: 370px;
+    overflow-x:scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
 
-
-
+.main-tables-container::-webkit-scrollbar {
+    background-color: var(--soft-orange);
+    height: 3px;
+  }
+  .main-tables-container::-webkit-scrollbar-thumb {
+    background-color: var(--bitcoin-orange);
+  }
 
 
 
