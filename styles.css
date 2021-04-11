@@ -155,15 +155,16 @@ main{
 }
 
 .main-currency-table{
-    width: 70%;
-    min-width: 235px;
+    width: 90%;
+    min-width: 320px;
     max-width: 500px;
     height: 340px;
-    margin: 0 auto;
+    margin: 0 30px;
     scroll-snap-align: center;
     font-family: "Inter", sans-serif;
-
 }
+
+
 
 .main-currency-table .currency-table--title{
     margin-bottom: 15px;
@@ -615,13 +616,6 @@ footer .left ul{
     scroll-snap-type: x proximity;
 }
 
-.main-tables-container::-webkit-scrollbar {
-    background-color: var(--soft-orange);
-    height: 3px;
-  }
-  .main-tables-container::-webkit-scrollbar-thumb {
-    background-color: var(--bitcoin-orange);
-  }
 
 
 
